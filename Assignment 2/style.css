@@ -1,0 +1,48 @@
+div
+{
+    border: 3px solid black;
+    font-size: 40px;
+   
+    margin-bottom: 20px;
+
+    background-color: #d2d5d9;
+    position: sticky;
+    top: 0px;
+    width: 98%;
+    
+    
+
+}
+span
+{
+    
+    text-align: center;
+    font-size: 80px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    display: block;
+    border-bottom: none;
+    width: 98%;
+    font-weight: bold;
+
+   
+}
+li
+{
+    
+
+    font-size: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    list-style-type:none;
+    
+    
+}
+li::before
+{
+    content: "\1F4DE  ";
+}
+
+#xy{
+    background-color: #eee;
+  width: 500px;
+  height: 500px;
+  border: 2px  black;
+  overflow: auto;
+}
